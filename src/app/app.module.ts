@@ -10,6 +10,7 @@ import { HistoriaPage } from '../pages/historia/historia';
 import { CalculoPage } from '../pages/calculo/calculo';
 import { PyePage } from '../pages/pye/pye';
 import { DibujoPage } from '../pages/dibujo/dibujo';
+import { CsPage } from '../pages/cs/cs';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DibujoPage } from '../pages/dibujo/dibujo';
     HistoriaPage,
     CalculoPage,
     PyePage,
-    DibujoPage
+    DibujoPage,
+    CsPage
     
   ],
   imports: [
@@ -32,7 +34,8 @@ import { DibujoPage } from '../pages/dibujo/dibujo';
     HistoriaPage,
     CalculoPage,
     PyePage,
-    DibujoPage
+    DibujoPage,
+    CsPage
   ],
   providers: [
     StatusBar,
