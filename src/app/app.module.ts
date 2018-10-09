@@ -8,13 +8,16 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { HistoriaPage } from '../pages/historia/historia';
 import { CalculoPage } from '../pages/calculo/calculo';
+import { PyePage } from '../pages/pye/pye';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     HistoriaPage,
-    CalculoPage
+    CalculoPage,
+    PyePage
+    
   ],
   imports: [
     BrowserModule,
@@ -25,7 +28,8 @@ import { CalculoPage } from '../pages/calculo/calculo';
     MyApp,
     HomePage,
     HistoriaPage,
-    CalculoPage
+    CalculoPage,
+    PyePage
   ],
   providers: [
     StatusBar,
