@@ -9,6 +9,7 @@ import { HomePage } from '../pages/home/home';
 import { HistoriaPage } from '../pages/historia/historia';
 import { CalculoPage } from '../pages/calculo/calculo';
 import { PyePage } from '../pages/pye/pye';
+import { DibujoPage } from '../pages/dibujo/dibujo';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PyePage } from '../pages/pye/pye';
     HomePage,
     HistoriaPage,
     CalculoPage,
-    PyePage
+    PyePage,
+    DibujoPage
     
   ],
   imports: [
@@ -29,7 +31,8 @@ import { PyePage } from '../pages/pye/pye';
     HomePage,
     HistoriaPage,
     CalculoPage,
-    PyePage
+    PyePage,
+    DibujoPage
   ],
   providers: [
     StatusBar,
